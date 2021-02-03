@@ -1,5 +1,5 @@
 // A reference to Stripe.js initialized with your real test publishable API key.
-var stripe = Stripe("pk_test_dINaH2HGlsAX8vWQMJtPpqkP00frqxGZKx");
+var stripe = Stripe(stripePublicKey);
 // The items the customer wants to buy
 var purchase = {
   items: [{ id: "xl-tshirt" }]
